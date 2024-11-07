@@ -3,8 +3,10 @@ color-magnitude cut for the SPHEREx cosmology preselection (Nov 15th, 2024)
 
 Several notes: 
 
-* Goal: try to place some color-magnitude cut to select sources that will give good redshift estimate for downstream cosmology study
+* Goal: apply some color-magnitude cut to select sources that are expected to provide accurate redshift estimates for downstream cosmology studies.
 
-* This is a preselection cut only using Legacy Survey (LS) z-band and WISE 1 band photometry. Future selections will possibly employ more complicated cuts. 
+* Method: this initial preselection uses photometry from the Legacy Survey (LS) z-band and WISE1 band. Future selections many involve more complicated cuts.
 
-* Please follow the jupyter notebook for further details. To reproduce the results, simply pull the jupyter notebook and the cross-matched catalog (between COSMOS 166k and SPHEREx refcat v0.6), and rerun the notebook. Or, Stats are summarized at the bottom of the notebook. 
+* Please follow the jupyter notebook for more details. To reproduce the results, you can simply pull the jupyter notebook and the cross-matched catalog (between COSMOS 166k and SPHEREx refcat v0.6), and rerun the notebook. A summary of the statistics is available at the end of the notebook. 
+
+* Dependencies: really just some common python packages. There is no dependence on the SPHEREx sky simulator or any associated pipelines. The primary input needed is the catalog.
